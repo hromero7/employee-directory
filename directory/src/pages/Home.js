@@ -7,8 +7,22 @@ import Table from "../components/Table";
 
 
 class Home extends Component {
-    state = {
-        results: {}
+
+    constructor(props){
+        super(props)
+        this.state = {
+            results: [],
+            keyword : ""
+        }
+        this.setSearchKeyword = this.setSearchKeyword.bind(this);
+    }
+
+
+    setSearchKeyword(event){
+        console.log(event.target.value)
+        this.setState({
+            keyword : event.target.value
+        })
     }
 
     componentDidMount() {
@@ -28,8 +42,8 @@ class Home extends Component {
         return (
             <div className="App">
                 <Jumbotron/>
-                <SearchBar/>
-                <Table />
+                <SearchBar onChange={this.setSearchKeyword}/>
+                <Table data={this.state.results} keyword={this.state.keyword} />
             </div>
         )
     }
