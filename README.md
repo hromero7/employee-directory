@@ -12,7 +12,7 @@ Create a directory application that generates random employee information and al
 
 ## The Output
 
-Screen shots of the completed application are below:
+Screenshots of the completed application are below:
 
 **The application**
 
