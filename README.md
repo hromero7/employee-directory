@@ -1,4 +1,4 @@
-# Employee_Directory
+# Employee-Directory
 
 A directory application that allows users to search for employees and obtain contact information. Once the user begins to search for an employee, the app begins to narrow the results. Each employee is generated through the use of an API call.
 Built with HTML, CSS, Bootstrap, JavaScript, jQuery and Moment.js.
