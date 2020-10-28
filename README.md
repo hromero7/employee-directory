@@ -20,10 +20,14 @@ Screen shots of the completed application are below:
 ## Installation
 
 Clone the repo:
-```https://github.com/hromero7/employee-directory.git```
+```
+https://github.com/hromero7/employee-directory.git
+```
 
 Install NPM Packages
-```npm install```
+```
+npm install
+```
 
 The project was uploaded to [GitHub](https://github.com/) at the following repository:
 [https://github.com/hromero7/employee-directory](https://github.com/hromero7/employee-directory)
