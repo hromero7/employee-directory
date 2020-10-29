@@ -21,7 +21,7 @@ Screenshots of the completed application are below:
 
 Clone the repo:
 ```
-https://github.com/hromero7/employee-directory.git
+git clone https://github.com/hromero7/employee-directory.git
 ```
 
 Install NPM Packages
