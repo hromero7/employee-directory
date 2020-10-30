@@ -14,8 +14,8 @@ Create a directory application that generates random employee information and al
 
 Screenshots of the completed application are below:
 
-**The application**
-
+**Main Page**
+![](./directory/src/employee-directory.png)
 
 ## Installation
 
